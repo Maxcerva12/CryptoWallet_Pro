@@ -8,7 +8,7 @@ from app.routes.deps.db_session import SessionDep
 from sqlmodel import select
 
 SECRET_KEY = "babilomangoalleywaysecurekeyforjwtgeneration"
-ALGORITHM = "RS256"
+ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 15
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/api/usuarios/login")

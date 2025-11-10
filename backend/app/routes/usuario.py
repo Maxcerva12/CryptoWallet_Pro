@@ -11,10 +11,10 @@ from sqlmodel import select
 from app.routes.deps.auth_session import get_current_user
 
 SECRET_KEY = "babilomangoalleywaysecurekeyforjwtgeneration"
-ALGORITHM = "RS256"
+ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 15
 
-pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
+pwd_context = CryptContext(schemes=["pbkdf2_sha256"], deprecated="auto")
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/api/usuarios/login")
 
 usuario_router = APIRouter(prefix="/api/usuarios", tags=["Usuarios"])
