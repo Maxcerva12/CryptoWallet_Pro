@@ -406,17 +406,17 @@ Este es un proyecto académico. Para contribuir:
 
 ## 📝 Licencia
 
-Proyecto académico - Universidad [Nombre] - 2025
+Proyecto académico - Universidad Universidad Cooperativa de Colombia - 2025
 
 ## 👨‍💻 Equipo de Desarrollo
 
-- Estudiante 1 - [GitHub]
-- Estudiante 2 - [GitHub]
-- Estudiante 3 - [GitHub]
-
+- Estudiante 1 - Nicoalas Pinzon
+- Estudiante 2 - Maxymiliano Cervantes
+- Estudiante 3 - Juan Nuñez
+- Estudiante 4 - Juan Arevalo
 ## 📞 Contacto
 
-Para preguntas sobre el proyecto: [email@universidad.edu]
+Para preguntas sobre el proyecto: maximiliano.cervante@campusucc.edu.co
 
 ---
 
