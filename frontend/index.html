@@ -1,60 +1,13 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CryptoWallet Pro - Login</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <div class="container">
-        <div class="auth-container">
-            <h1>CryptoWallet Pro</h1>
-            <div class="auth-tabs">
-                <button id="login-tab" class="tab active">Iniciar Sesión</button>
-                <button id="register-tab" class="tab">Registrarse</button>
-            </div>
-            <div id="login-form" class="auth-form">
-                <form id="loginForm">
-                    <div class="form-group">
-                        <label for="login-email">Email:</label>
-                        <input type="email" id="login-email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="login-password">Contraseña:</label>
-                        <input type="password" id="login-password" required>
-                    </div>
-                    <button type="submit" class="btn">Iniciar Sesión</button>
-                </form>
-            </div>
-            <div id="register-form" class="auth-form hidden">
-                <form id="registerForm">
-                    <div class="form-group">
-                        <label for="register-email">Email:</label>
-                        <input type="email" id="register-email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="register-username">Usuario:</label>
-                        <input type="text" id="register-username" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="register-firstname">Nombre:</label>
-                        <input type="text" id="register-firstname" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="register-lastname">Apellido:</label>
-                        <input type="text" id="register-lastname" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="register-password">Contraseña:</label>
-                        <input type="password" id="register-password" required>
-                    </div>
-                    <button type="submit" class="btn">Registrarse</button>
-                </form>
-            </div>
-            <div id="message" class="message"></div>
-        </div>
-    </div>
-    <script src="app.js"></script>
-</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>frontend</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
